@@ -2,15 +2,13 @@
   "name": "module-federation-ssr",
   "version": "1.0.0",
   "scripts": {
-    "start": "concurrently \"npm run buildHost\" \"npm run startHost\" \"npm run buildRemote\" \"npm run startRemote\"",
-    "buildHost": "webpack --config=hostServer/webpack.config.js -w",
-    "startHost": "nodemon hostServer/public/server/server.js",
+    "start": "concurrently \"npm run buildRemote\" \"npm run startRemote\"",
     "buildRemote": "webpack --config=remoteServer/webpack.config.js -w",
     "startRemote": "nodemon remoteServer/public/server/server.js"
   },
   "license": "MIT",
   "author": {
-    "name": "Pini Tayeb"
+    "name": ""
   },
   "devDependencies": {
     "@babel/core": "7.12.3",
