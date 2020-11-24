@@ -1,2 +1,4 @@
 hostServer/node_modules/*
 remoteServer/node_modules/*
+remoteServer/public/*
+hostServer/public/*

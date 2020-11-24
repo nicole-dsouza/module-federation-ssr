@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "start": "concurrently \"npm run buildRemote\" \"npm run startRemote\"",
-    "buildRemote": "webpack --config=remoteServer/webpack.config.js -w",
-    "startRemote": "nodemon remoteServer/public/server/server.js"
+    "buildRemote": "webpack --config=webpack.config.js -w",
+    "startRemote": "nodemon public/server/server.js"
   },
   "license": "MIT",
   "author": {
