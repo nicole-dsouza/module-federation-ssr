@@ -1,13 +1,6 @@
-# ModuleFederationSSR
+### Details
 
-Module Federation Server Side Rendering example :)
-
-Remote server exposes "SharedComponent",
-and Host server consume and render it in Server Side.
-
-Changing "SharedComponent" will affect both servers, without rebuilding Host server
-
-npm start
+run npm start in each directory (first remoteServer, then hostServer)
 
 http://localhost:3000/ - Host Server
 
