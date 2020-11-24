@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "start": "concurrently \"npm run buildHost\" \"npm run startHost\"",
-    "buildHost": "webpack --config=hostServer/webpack.config.js -w",
-    "startHost": "nodemon hostServer/public/server/server.js"
+    "buildHost": "webpack --config=webpack.config.js -w",
+    "startHost": "nodemon public/server/server.js"
   },
   "license": "MIT",
   "author": {
