@@ -3,7 +3,7 @@ import SharedComponent from "website2/SharedComponent";
 
 const App = () => (
   <div>
-    <h1>Host Server</h1>
+    <h1>main app</h1>
     <SharedComponent />
   </div>
 );

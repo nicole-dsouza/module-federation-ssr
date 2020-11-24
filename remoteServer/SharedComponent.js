@@ -1,5 +1,5 @@
 import React from "react";
 
-const SharedComponent = () => <div>Shared Component2222</div>;
+const SharedComponent = () => <div>microfrontend component</div>;
 
 export default SharedComponent;
