@@ -1,10 +1,10 @@
 import React from "react";
-import SharedComponent from "website2/SharedComponent";
+import Test from "./pages/test.js";
 
 const App = () => (
   <div>
     <h1>main app</h1>
-    <SharedComponent />
+    <Test />
   </div>
 );
 
